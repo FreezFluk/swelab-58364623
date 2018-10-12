@@ -1,0 +1,8 @@
+version: '3.5'
+services:
+  myapp:
+    image: zeefluk/swelab-58364623
+    ports:
+      - "8056:3000"
+    command: "npm start"
+

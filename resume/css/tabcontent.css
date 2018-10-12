@@ -1,0 +1,28 @@
+.tablink {
+    background-color: #c4c4c4;
+    color: black;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    font-weight: bold;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: white;
+}
+
+.tabcontent {
+    color: black;
+    display: none;
+    padding: 100px 20px;
+    height: 88.33%;
+}
+
+#EDUCATIONS {background-color: #01ABAA;}
+#PICTURES {background-color: #FEDC3D;}
+#SKILLS {background-color: #FEA680;}
+#REFERENCES {background-color: #58e54b;}
